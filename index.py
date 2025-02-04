@@ -1,3 +1,4 @@
-a = int(2.3)
+a = 3
+b = 3.0
 
-print (a)
+print(a == b)
