@@ -1,4 +1,4 @@
-a = 3
-b = 3.0
+paises = ('Brasil', 'Russia', 'China', 'Eua', 'Israel', 'India', 'Egito', 'Líbano')
 
-print(a == b)
+for x in paises:
+    print(x)
