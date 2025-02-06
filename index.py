@@ -2,3 +2,5 @@ paises = ('Brasil', 'Russia', 'China', 'Eua', 'Israel', 'India', 'Egito', 'Líba
 
 for x in paises:
     print(x)
+
+    # 16 orientação a objetos
