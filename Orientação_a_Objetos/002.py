@@ -1,4 +1,4 @@
-# Faltam 9 aulas de orientação a objetos.
+# Faltam 8 aulas de orientação a objetos.
 
 """  
 def Registrar(nome, idade):
