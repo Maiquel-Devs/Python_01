@@ -1,4 +1,5 @@
-# Faltam 12 aulas de orientação a objetos.
+# Faltam 9 aulas de orientação a objetos.
+
 """  
 def Registrar(nome, idade):
     paciente = {'Nome': nome, 'Idade': idade}
@@ -37,5 +38,5 @@ cachorro2.latir()
 cachorro2.correr()
 
 
-# 7 minutos
+# 8:53 de aula 
 
