@@ -1,4 +1,4 @@
-# Faltam 7 aulas de orientação a objetos.
+# Faltam 3 aulas de orientação a objetos.
 
 """  
 def Registrar(nome, idade):
@@ -37,6 +37,4 @@ cachorro1.correr()
 cachorro2.latir()
 cachorro2.correr()
 
-
-# 8:53 de aula 
-
+# 3:20
