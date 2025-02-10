@@ -1,25 +1,19 @@
-class Cachorro:
-    def __init__(self, nome): # Construtor 
-        self.nome = nome  # Atributo
+class Animal:
+    def __init__(self, nome):
+        self.nome = nome  # Atributo 'nome' definido na classe base
 
-    def latir(self):  # Método 
-        print(self.nome, "está latindo!")
+class Cachorro(Animal):
+    def __init__(self, nome, raca):
+        super().__init__(nome)  # Reaproveita a inicialização do atributo 'nome'
+        self.raca = raca        # Atributo 'raca' exclusivo de Cachorro
 
-    def correr(self):  # Método
-        print(self.nome, "está correndo!")
+# Instanciando um objeto da classe Cachorro:
+cachorro = Cachorro("Rex", "Labrador")
 
-# Criando instâncias da classe Cachorro
-cachorro1 = Cachorro("Rex")   # --> Instancia (esse é seu objeto)
-cachorro2 = Cachorro("Bob")
+print(cachorro.nome)  # Acessa o atributo 'nome', definido na classe Animal
+print(cachorro.raca)  # Acessa o atributo 'raca', exclusivo da classe Cachorro
 
 
-# Chamando atributos 
-print(cachorro1.nome)
-print(cachorro2.nome)
 
-# Chamando os métodos
-cachorro1.latir()
-cachorro1.correr()
 
-cachorro2.latir()
-cachorro2.correr()
+
