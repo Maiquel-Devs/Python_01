@@ -17,4 +17,4 @@ cachorro.emitir_som()    # Saída: Au Au....
 cachorro.abanar_rabo()   # Saída: Rex está abanando o rabo!
 
 
-# Deixar apenas um método construtor na superclasse
+# Como tem um Método Construtor na Classe Mãe ao intanciar um objeto na classe filha tem que colocar o astributos do método construtor na classe filha (ao nomear-la)

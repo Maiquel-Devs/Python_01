@@ -1,3 +1,5 @@
+# É um extra do 004.py
+
 # Super Classe
 class Pessoa:
     def __init__(self, nome, idade, cpf):  # Atributos base "que tem que ter em qualque classe herdada"
