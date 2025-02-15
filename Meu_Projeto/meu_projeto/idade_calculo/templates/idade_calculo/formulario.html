@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Idade</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    
+    <form method="POST">
+        {% csrf_token %}
+        <label for="Nome_id">Nome:</label>
+        <input type="text" name="Nome" id="Nome_id">  <br><br>
+        
+        <label for="Idade_id">Data de Nascimento:</label>
+        <input type="date" name="Idade" id="Idade_id"> <br><br>
+
+        <input type="submit" value="Enviar">  <br><br>
+    </form>
+
+    {% if idade is not None %}
+        <h2>Sua idade é: {{ idade }} anos</h2>
+    {% endif %}
+</body>
+</html>
