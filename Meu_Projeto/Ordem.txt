@@ -3,7 +3,9 @@
 3 - views.py ---> Templates(Pacote de Front end), Models (Bancos de Dados)
 
 
-1 (Settings.py) - Primeiro Voçê vai configurar seus projeto
+1 (Settings.py) - Primeiro Voçê vai configurar seus projetos
+
+Cria um Pacote com o nome que quer inserir e depois ....
 2 (urls.py) - Depois vai adicionar seu projeto na urls
 3 (viwes.py) - Vai fazer a interação com Front End ao Bancos de Dados, mas antes é nescessario cria um Templates e configurar/mexer o Models
 
