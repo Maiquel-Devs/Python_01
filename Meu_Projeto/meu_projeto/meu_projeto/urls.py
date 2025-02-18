@@ -22,3 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', calcular_idade, name='calcular_idade'),
 ]
+
+
+# 2 Adicionar uma url     ----> fazer um import e adiconar no urlpatterns o pacote que voçê criou para adicionar seu projeto
